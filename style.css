@@ -1,0 +1,30 @@
+body {
+	margin: 24px auto;
+	min-width: 960px;
+	max-width: 1024px;
+	/*position: relative;*/
+}
+
+header {
+	height: 108px;
+	
+}
+
+header img {
+	float: left;
+}
+
+header div {
+	float: left;
+	border: 1px solid black;
+	height: 100%;
+}
+
+.contact {
+	width: 279px;
+
+}
+
+.more {
+	width: 513px;
+}
