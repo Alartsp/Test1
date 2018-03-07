@@ -210,10 +210,23 @@ footer {
 }
 
 footer .items {
-	width: 297px;
+	width: 273px;
 	background-color: #777777;
-	height: 100%;
+	height: 156px;
 	float: left;
+	padding: 12px;
+}
+
+footer .items div {
+	width: 120px;
+	height: 156px;
+	display: inline-block;
+}
+
+footer .items div ul{
+	margin: 0;
+	color: white;
+	list-style-type: none;
 }
 
 footer .rates {
@@ -222,6 +235,11 @@ footer .rates {
 	height: 100%;
 	float: left;
 	margin-left: 29px;
+}
+
+.rates ul, a{
+	color: white;
+	text-decoration: none;
 }
 
 footer .contents-4 {
