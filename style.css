@@ -149,6 +149,7 @@ header .more {
 	display: inline-block;
 	padding-right: 21.4px;
 	padding-bottom: 20px;
+	line-height: 0;
 }
 
 .multi-img {
@@ -157,7 +158,7 @@ header .more {
 
 .double {
 	overflow: hidden;
-	margin-top: -5px;
+	margin: 0;
 	height: auto;
 }
 
