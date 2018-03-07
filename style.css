@@ -137,10 +137,22 @@ header .more {
 	overflow: hidden;
 }
 
-.multi-img {
+.contents-multi ul {
+	width: 777px;
+	list-style-type: none;
+	text-align: match-parent;
+	padding: 0;
+	margin: 0;
+}
+
+.contents-multi ul li {
 	display: inline-block;
-	margin-right: 17.4px;
-	margin-bottom: 20px;
+	margin-right: 18px;
+	padding-bottom: 20px;
+}
+
+.multi-img {
+	list-style-type: none;
 }
 
 .double {
