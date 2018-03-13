@@ -133,23 +133,25 @@ header .more {
 .contents-multi {
 	position: relative;
 	padding-top: 20px;
-	margin-right: -20px;
 	overflow: hidden;
 }
 
 .contents-multi ul {
-	width: 777px;
+	width: 757px;
 	list-style-type: none;
-	text-align: match-parent;
 	padding: 0;
 	margin: 0;
 }
 
 .contents-multi ul li {
 	display: inline-block;
-	padding-right: 21.4px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	line-height: 0;
+	margin-right: 21.76px;
+}
+
+.contents-multi ul li:nth-child(5n){
+	margin-right: 0;
 }
 
 .multi-img {
